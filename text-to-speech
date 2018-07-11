@@ -1,0 +1,7 @@
+http://responsivevoice.org/responsivevoice/getvoice.php?t=Type%20text%20here&tl=en-US
+
+This is the URL responsivevoice.js used to read text. Replace Type%20text%20here with your own text.
+This page enables you to convert text to speech and also download them as mp3 files
+
+<a href="javascript:var text=escape(prompt('Type text here: '));
+window.location.href = 'http://responsivevoice.org/responsivevoice/getvoice.php?t='+ text +'&tl=en-US';" id="a">Play</a>
